@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -v1ap | paste -sd ", " 
+ls -v1ap | sed -z 's/\n/, /g; s/, $/\n/'
+
