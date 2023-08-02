@@ -1,3 +1,2 @@
 #!/bin/bash
 ls -v1ap | sed -z 's/\n/, /g; s/, $/\n/'
-
