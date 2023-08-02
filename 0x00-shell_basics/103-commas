@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(ls -v1a --format==commas)"
+ls -v1a | paste -sd ", " 
