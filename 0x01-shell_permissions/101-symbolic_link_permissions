@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown -h --dereference vincent:staff _hello
+sudo chown $(readlink -f _hello) vincent:staff
