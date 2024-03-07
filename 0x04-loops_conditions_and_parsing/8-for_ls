@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Script that displays the content of the current directory in specific format
+
+for file in *
+do
+	echo "${file##*-}"
+done
